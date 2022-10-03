@@ -1,10 +1,17 @@
 {
   "name": "03-webserver",
   "version": "1.0.0",
-  "description": "",
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "nodemon": "^2.0.20",
     "request": "^2.88.2"
-  }
+  },
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "description": ""
 }
